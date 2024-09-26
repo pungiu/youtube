@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-    <script defer src="scriptrs/script.js" type="text/javascript"></script>
+    <script defer src="scripts/script.js" type="text/javascript"></script>
     <body class="bg-darkMode">
     <div class="p-5 flex flex-col h-screen">
         <div class="h-full flex place-items-center text-white">
