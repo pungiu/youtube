@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost"; // Change if your database server is different
 $username = "root"; // Replace with your database username
-$password = '3caQ.="hA@eJGtk'; // Replace with your database password
+$password = ''; // Replace with your database password
 $dbname = "projekt"; // Your database name
 
 $conn = new mysqli($servername, $username, $password, $dbname);
