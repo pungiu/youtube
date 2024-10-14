@@ -1,0 +1,11 @@
+Options -Indexes
+
+Order allow,deny
+allow from all
+
+ErrorDocument 404 /v.php
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
